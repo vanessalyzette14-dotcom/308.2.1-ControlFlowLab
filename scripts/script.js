@@ -51,7 +51,6 @@ Constant Variables*/
 // analyzeWeek(3);
 
 
-
 // What do we know?
 // area is circular
 //const PI = 3.1415;
@@ -63,12 +62,9 @@ Constant Variables*/
 // Pruned % > 80
 // Monitored 50 <= % <= 80
 // Planted % < 50%
-
 // What do they expect back (what is the output)?
 // String advises action
-
 // Can we infer anything?
-
 // Constant Variables
 const PI = 3.1415;
 const radius = 5;
@@ -78,6 +74,7 @@ const spacePerPlant = 0.8;
 
 // Dynamic Variables
 let week = 10;
+
 
 let totalPlantPossible = area / spacePerPlant;
 console.log("Total Plants Possible:", totalPlantPossible);
