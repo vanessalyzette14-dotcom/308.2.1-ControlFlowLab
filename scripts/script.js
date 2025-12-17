@@ -73,7 +73,7 @@ const startingPlants = 100;
 const spacePerPlant = 0.8;
 
 // Dynamic Variables
-let week = 10;
+let week = 1;
 
 
 let totalPlantPossible = area / spacePerPlant;
